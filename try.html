@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task1</title>
+
+	<style >
+
+         body {
+         	background-color: #76b852;
+         	font-style: italic;
+         	font-weight: bold;
+
+
+         }
+		.div-row{
+			margin: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			background-color: white;
+
+		}
+
+		 .div-row input[type=button]{
+		 	border: none;
+		 	background-color: #c0c0c0;
+		 	padding: 10px;
+		 	border-radius: 5px;
+		 	padding: 10px;
+		 	cursor: pointer;
+		    background-color: #76b852;
+		    font-style: italic;
+         	font-weight: bold;
+
+
+		 }
+           .button-new {
+
+           }
+
+           .button-delete{
+
+
+           }
+
+			</style>
+</head>
+<body>
+	<form>
+	<div id="div-box">
+		<div class="div-row" id="row-1">
+			<label>product name: </label><input type="text" name="product" value="">
+			&nbsp
+			<label>price: </label><input type="text" name="price" value="">
+			&nbsp
+			<label>item no: </label><input type="text" name="item" value="">
+			&nbsp
+			<input class="button-new" style="display: "  onclick="newRow(this)" type="button" value="New">
+			&nbsp
+			<input class="button-delete" style="display: none "  onclick="deleteRow(this)" type="button" value="Delete" >
+		</div>
+	</div>
+</form>
+
+<script src="try.js"></script>
+</body>
+</html>
